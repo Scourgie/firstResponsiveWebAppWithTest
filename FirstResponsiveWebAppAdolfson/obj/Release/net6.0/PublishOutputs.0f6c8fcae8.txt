@@ -1,0 +1,7 @@
+E:\College_Homework\Homework\Coding\CSharp\Assignment_Advanced_CSharp\FirstResponsiveWebAppAdolfson\obj\Release\net6.0\PubTmp\Out\FirstResponsiveWebAppAdolfson.exe
+E:\College_Homework\Homework\Coding\CSharp\Assignment_Advanced_CSharp\FirstResponsiveWebAppAdolfson\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+E:\College_Homework\Homework\Coding\CSharp\Assignment_Advanced_CSharp\FirstResponsiveWebAppAdolfson\obj\Release\net6.0\PubTmp\Out\appsettings.json
+E:\College_Homework\Homework\Coding\CSharp\Assignment_Advanced_CSharp\FirstResponsiveWebAppAdolfson\obj\Release\net6.0\PubTmp\Out\FirstResponsiveWebAppAdolfson.dll
+E:\College_Homework\Homework\Coding\CSharp\Assignment_Advanced_CSharp\FirstResponsiveWebAppAdolfson\obj\Release\net6.0\PubTmp\Out\FirstResponsiveWebAppAdolfson.deps.json
+E:\College_Homework\Homework\Coding\CSharp\Assignment_Advanced_CSharp\FirstResponsiveWebAppAdolfson\obj\Release\net6.0\PubTmp\Out\FirstResponsiveWebAppAdolfson.runtimeconfig.json
+E:\College_Homework\Homework\Coding\CSharp\Assignment_Advanced_CSharp\FirstResponsiveWebAppAdolfson\obj\Release\net6.0\PubTmp\Out\FirstResponsiveWebAppAdolfson.pdb
