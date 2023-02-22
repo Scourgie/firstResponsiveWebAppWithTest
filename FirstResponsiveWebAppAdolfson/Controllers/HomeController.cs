@@ -7,6 +7,7 @@ namespace FirstResponsiveWebAppAdolfson.Controllers
     {
 
         [HttpGet]
+        [Route("/")]
         public IActionResult Index()
         {
             ViewBag.Age = "0000";
@@ -15,6 +16,7 @@ namespace FirstResponsiveWebAppAdolfson.Controllers
         }
 
         [HttpPost]
+        [Route("/")]
         public IActionResult Index(ResponsiveWebAppModel model)
         {
             if (ModelState.IsValid)
@@ -28,5 +30,12 @@ namespace FirstResponsiveWebAppAdolfson.Controllers
 
             return View(model);
         }
+
+        [Route("About")]
+        public IActionResult About()
+        {
+            return Content("Home controller, About action");
+        }
+
     }
 }

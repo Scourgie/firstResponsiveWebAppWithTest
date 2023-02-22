@@ -28,22 +28,34 @@ namespace FirstResponsiveWebAppAdolfson
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
+            app.UseDeveloperExceptionPage();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
-            app.UseRouting();
+            app.UseRouting(); // mark where routing decisions are made
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
+            // configure middleware that runs after routing decisions have been made
+
+            app.UseEndpoints(endpoints => // map the endpoints 
             {
+                endpoints.MapControllers();
+
+                endpoints.MapControllerRoute(
+                    name: "paging_and_sorting",
+                    pattern: "{controller}/{action}/{id}/page{page}/sort-by-{sortby}");
+
+                endpoints.MapControllerRoute(
+                    name: "paging",
+                    pattern: "{controller}/{action}/{id}/page{page}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-
-
         }
+
     }
 }
