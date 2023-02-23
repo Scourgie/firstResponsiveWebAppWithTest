@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\PersonalProjects\firstResponsiveWebAppWithTest\FirstResponsiveWebAppAdolfson
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/PersonalProjects/firstResponsiveWebAppWithTest/FirstResponsiveWebAppAdolfson/Views/Assignment/Assignment061.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxBc3NpZ25tZW50MDYxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/PersonalProjects/firstResponsiveWebAppWithTest/FirstResponsiveWebAppAdolfson/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,4 +42,8 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/PersonalProjects/firstResponsiveWebAppWithTest/FirstResponsiveWebAppAdolfson/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PersonalProjects/firstResponsiveWebAppWithTest/FirstResponsiveWebAppAdolfson/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

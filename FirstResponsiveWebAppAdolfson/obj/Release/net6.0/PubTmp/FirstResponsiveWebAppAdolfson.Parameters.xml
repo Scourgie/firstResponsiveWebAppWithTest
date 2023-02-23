@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="abadolfson" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\College_Homework\\Homework\\Coding\\CSharp\\Assignment_Advanced_CSharp\\FirstResponsiveWebAppAdolfson\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  <parameter name="IIS Web Application Name" description="" value="StudentNamesAndGrades" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\PersonalProjects\\firstResponsiveWebAppWithTest\\FirstResponsiveWebAppAdolfson\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

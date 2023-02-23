@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using FirstResponsiveWebAppAdolfson.Models;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstResponsiveWebAppAdolfson
 {
@@ -13,7 +15,9 @@ namespace FirstResponsiveWebAppAdolfson
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddDbContext<StudentContext>(options => options.UseSqlServer(Configuration.GetConnectionString("StudentContext")));
+
+            services.AddControllersWithViews(); 
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
